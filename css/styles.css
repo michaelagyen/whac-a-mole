@@ -1,0 +1,47 @@
+h1 {
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+body {
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  color: black;
+}
+
+.grid {
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("C:/Users/michael/Documents/Webdev/Web Development/Whac-a-mole/images/hole.png");
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid #b721ff 1px;
+}
+
+.mole {
+  background-image: url("C:/Users/michael/Documents/Webdev/Web Development/Whac-a-mole/images/mole.png");
+  background-size: cover;
+}
+
+.glowing-border {
+  width: 606px;
+  height: 606px;
+  /* border-radius: 50%; */
+  box-shadow: inset 0 0 20px #fff, /* inner white */ inset 20px 0 40px #f0f,
+    /* inner left magenta short */ inset -5px 0 40px #0ff,
+    /* inner right cyan short */ inset 5px 0 5px #f0f,
+    /* inner left magenta broad */ inset -10px 0 30px #0ff,
+    /* inner right cyan broad */ 0 0 50px #fff,
+    /* outer white */ -5px 0 20px #f0f, /* outer left magenta */ 5px 0 10px #0ff; /* outer right cyan */
+}
